@@ -1,0 +1,31 @@
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pokemon-card {
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgb(4, 96, 255);
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ff6060e5;
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-name {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.pokemon-height {
+  font-size: 18px;
+  margin: 10px 0;
+  ;
+}
